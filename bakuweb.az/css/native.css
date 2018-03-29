@@ -1,0 +1,171 @@
+/*standart klaslar*//*standart klaslar*//*standart klaslar*//*standart klaslar*//*standart klaslar*/
+.navbar-brand:hover,.navbar-brand:focus,a:hover,a:focus{
+	color: #00747a !important;
+}
+.my_btn:hover,.my_btn:focus{
+	background: #00747a !important;
+	color: white !important;
+	border-color: #00656b !important;
+}
+.my_top_menu_items .active a:hover{
+	background: #00747a !important;
+}
+.my_top_menu_items .active a:focus{
+	background: #00969D !important;
+}
+.my_nav{
+	background-color:#222;
+	padding:10px 0;
+	opacity: 0.7;
+}
+.logolar img{
+	display: inline-block;
+}
+.xidmetler_main{
+	display: flex;
+	flex-wrap: wrap;
+}
+.xidmetler_main .text-muted,.xidmetler_main ol{
+	text-align: justify;
+	font-style: italic;
+}
+.xidmetler_main .col-md-4{
+	margin-bottom: 25px;
+}
+.xidmetler_main ol{
+	color: grey;
+	padding: 15px;
+	padding-top: 0px;
+}
+.xidmetler_main ol li{
+	margin-top:5px; 
+}
+#portfolio .portfolio-item .portfolio-caption p{
+	font-size: 13px !important;
+}
+#portfolio .portfolio-item .portfolio-caption{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.my_list_block li{
+	display: block;
+	text-align: justify;
+	font-style: italic;
+}
+.my_txt_algn_justify{
+	text-align: justify;
+}
+.timeline-body ul{
+	padding: 15px;
+	color: gray;
+}
+.timeline-body ul li{
+	margin-bottom: 5px;
+}
+.timeline>li .timeline-image{
+	background-color: white;
+}
+.timeline>li .haqqimizda_sonuncu_yumru{
+	color: #00969D;
+}
+.yuxari_cix{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background-color: #00969D;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+	display: none;
+	z-index: 10;
+}
+.yuxari_cix:hover{
+	background-color: #00747a;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.yuxari_cix i{
+	line-height: 65px;
+	color: white;
+}
+.fb_iframe_widget{
+	position: fixed !important;
+	top: 70px !important;
+	right: 1px !important;
+}
+address{
+	color: white;
+	font-style: italic;
+	position: relative;
+	top: 150px;
+    left: 11px;
+	font-size: 15px;
+}
+address div{
+	margin-bottom: 7px;
+}
+address div:nth-child(2) span{
+	position: relative;
+	right: 5px;
+}
+address div:nth-child(3) span{
+	position: relative;
+	right: 13px;
+}
+.whatsapp-icon{
+	min-width: 18.6563px;
+	min-height: 19px;
+	background: url(../img/icons/whatsapp.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    right: 20px;
+}
+.fa-envelope:before {
+    content: "\f0e0";
+    position: relative;
+    right: 20px;
+}
+.fa-phone:before {
+    content: "\f095";
+    position: relative;
+    right: 33px;
+}
+.seo_h1 {
+    font-size: 0.5em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    -o-user-select: none !important;
+}
+
+
+@media(max-width: 768px){
+	.logolar img{
+	display: block;
+}
+	address{
+	top: 105px;
+}
+	.fb_iframe_widget{
+	top: 180px !important;
+}
+}
+@media(max-width: 480px){
+	.section-heading{
+	font-size: 2em !important;
+	}
+	.yuxari_cix{
+	width: 50px;
+	height: 50px;
+	}
+	.yuxari_cix i{
+	line-height: 50px;
+	color: white;
+}
+}
