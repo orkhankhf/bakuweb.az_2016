@@ -1,1 +1,1 @@
-# bakuweb.az_2016
+# Bakuweb.az was published on January 2016
